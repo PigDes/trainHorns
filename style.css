@@ -1,0 +1,75 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	width: 100vw;
+	height: 12vw;
+	margin: 0px;
+	background-image: url('yard_shoot_header.jpeg');
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header h1 {
+	padding: 0vh 7vw 0vh 7vw;
+	font-family: sans-serif;
+	font-size: 4em;
+	text-align: center;
+	color: rgb(28,28,28);
+	background-color: rgba(207,207,207,0.6);
+	border-top: 5px solid rgb(230, 185, 37);
+	border-bottom: 5px solid rgb(230, 185, 37);
+}
+
+#main-div {
+	margin: 0;
+}
+
+#main-div p {
+	font-family: sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#loco-div {
+	width: 70vw;
+	margin: 10vh auto 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#loco-div div {
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 25vw;
+	width: 30vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#loco-div p {
+	color: rgb(28,28,28);
+	font-size: 2em;
+	background-color: rgba(207,207,207,0.6);
+	opacity: 1;
+	ba
+}
+
+#es44ac {
+	background-image: url('GE_ES44AC.jpg');
+}
+
+#sd70ace {
+	background-image: url('EMD_SD70ACE.jpg');
+}
+
+#loco-div div:hover {
+	opacity: 0.5;
+}
+
