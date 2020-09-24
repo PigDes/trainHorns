@@ -30,6 +30,7 @@ header h1 {
 }
 
 #main-div p {
+
 	font-family: sans-serif;
 	font-size: 1.2em;
 	text-align: center;
@@ -53,23 +54,44 @@ header h1 {
 	align-items: center;
 }
 
-#loco-div p {
-	color: rgb(28,28,28);
-	font-size: 2em;
-	background-color: rgba(207,207,207,0.6);
-	opacity: 1;
-	ba
-}
-
 #es44ac {
 	background-image: url('GE_ES44AC.jpg');
+}
+
+#es44ac p {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(0,0,0,0);
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+#es44ac p:hover {
+	color: rgba(0,0,0,180);
+	background-color: rgba(200,200,200,0.5);
 }
 
 #sd70ace {
 	background-image: url('EMD_SD70ACE.jpg');
 }
 
-#loco-div div:hover {
-	opacity: 0.5;
+#sd70ace p {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(0,0,0,0);
+	font-size: 2.5rem;
+	font-weight: bold;
 }
+
+#sd70ace p:hover {
+	color: rgba(0,0,0,180);
+	background-color: rgba(200,200,200,0.5);
+}
+
 

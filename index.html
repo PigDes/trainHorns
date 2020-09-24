@@ -16,7 +16,7 @@
 
 			<div id="loco-div">
 				<div id="es44ac">
-					<p>GE ES44AC</p>
+					<p><a>GE ES44AC</a></p>
 				</div>
 				
 				<div id="sd70ace">
@@ -26,6 +26,27 @@
 			
 		</div>
 
+	<script>
+		let gevo = document.querySelector('#es44ac');
+		let emd = document.querySelector('#sd70ace');
+
+
+		function gevoHorn () {
+			let gevoHorn = new Audio('k5la_1csx.wav');
+			gevoHorn.play()
+		}
+
+		gevo.onclick = gevoHorn;
+
+		function emdHorn () {
+			let emdHorn = new Audio('K3LA_CSX.mp3');
+			emdHorn.play()
+		}
+
+		emd.onclick = emdHorn;
+
+
+	</script>
 
 	</body>
 
